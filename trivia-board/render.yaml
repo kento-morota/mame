@@ -2,6 +2,7 @@ services:
   - type: web
     name: trivia-board
     runtime: node
+    rootDir: trivia-board
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
